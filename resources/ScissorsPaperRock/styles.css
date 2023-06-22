@@ -1,0 +1,51 @@
+body {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  background: url("https://img.freepik.com/premium-photo/white-art-paper-background_35956-2379.jpg?w=2000");
+}
+
+h1 {
+  font-size: 48px;
+}
+
+.rules ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.weapon {
+  color: red;
+}
+
+button {
+  font-size: 25px;
+  padding: 5px;
+  margin: 10px;
+  border: 2px dotted black;
+  border-radius: 10px;
+  width: 200px;
+  height: 150px;
+}
+
+#Scissors {
+  background: url("https://s3-ap-southeast-2.amazonaws.com/wc-prod-pim/JPEG_1000x1000/JBLH7_j_burrows_comfort_grip_scissors_no_8_left_handed.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#Paper {
+  background: url("https://www.kwikkopy.com.au/wp-content/uploads/2014/10/Paperstocks.png");
+  background-position: center;
+  background-size: cover;
+}
+
+#Rock {
+  background: url("https://www.thoughtco.com/thmb/Uh06xuGPA6HKNbaxpNsOjR7CjPY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/rhyolite-1057171452-5c911d4b46e0fb000187a397.jpg");
+  background-position: center;
+  background-size: cover;
+}
